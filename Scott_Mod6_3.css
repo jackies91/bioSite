@@ -1,18 +1,149 @@
-/* Jackie Scott Module 6.3 */
+/* Jackie Scott Module 7.2 */
 
 html {
     background-color: #eed6d3;
 
 }
 
-
-h1 {
+#navbar {
+	overflow: hidden;
 	background-color: #e8b4b8;
-	padding: 10px;
-	margin: 10px;
-	text-align: center;
-	font-size: 48px;
-	color: #67595e;
+	border-bottom: solid 15px #a49393;
+	font-size: 15px;
+
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: #4E4F50;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    background-color: #eed6d3;
+    color: #e8b4b8;
 }
 
 
+h1 {
+	background-color: #c197d2;
+	padding: 10px;
+	margin: 10px;
+	text-align: center;
+	font-size: 65px;
+	font-family: "Montserrat", Verdana, Arial, sans-serif;
+	color: #4E4F50;
+
+}
+
+h2 {
+	font-family: "Montserrat", Verdana, Arial, sans-serif;
+	font-size: 35px;
+	text-align: center;
+}
+
+
+#container {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(500px,1fr));
+	grid-gap: 1rem;
+	padding: 20px;
+}
+
+.container {
+	width: auto;
+	padding: 20px;
+}
+
+
+.gallery.image1 {
+	margin: 5px;
+	padding: 5px;
+	border: 2px solid #67595e;
+	height: auto;
+	width: auto;
+	float: left;
+	text-align: center;
+}
+
+.gallery.image2 {
+	margin: 5px;
+	padding: 5px;
+	border: 2px solid #67595e;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	text-align: center;
+}
+
+.gallery.image3 {
+	margin: 0px;
+	padding: 20px;
+	border: 2px solid #67595e;
+	text-align: center;
+	width: auto;
+}
+
+.about.pic4 {
+	display: grid;
+	margin: 0px auto;
+	padding: 10px;
+	width: auto;
+	height: 500px;
+
+}
+
+figure.gallery3 {
+	display: inline-flex;
+	margin: 0px;
+	padding: 20px;
+	border: 2px solid #67595e;
+	text-align: left;
+}
+
+.pic1, .pic2, .pic3 {
+	margin: 0px auto;
+	padding: 10px;
+	width: 400px;
+	height: 300px;
+}
+
+.pic5, .pic7 {
+	margin: 0px auto;
+	margin-right: 10px;
+	padding: 10px;
+	width: auto;
+	height: 400px;	
+}
+
+.pic6 {
+	margin: 0px auto;
+	margin-right: 10px;
+	padding: 10px;
+	width: 350px;
+	height: 300px;	
+}
+
+figcaption {
+	font-size: 20px;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	background-color: #c197d2;
+}
+
+
+
+
+footer {
+		float: right;
+		margin-bottom: 50px;
+}
